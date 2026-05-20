@@ -1,0 +1,374 @@
+﻿
+
+w14:paraId="7225B4C8" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Product Requirements Document (PRD)
+w14:paraId="2B9552F8" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Nurture Roots Hour of AI Platform
+w14:paraId="1A9CC6BE" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Version: 1.0Prepared For: Nurture Roots FoundationProgramme: Nurture Roots Code Club â€“ Hour of AIDocument Type: Product Requirements Document (PRD)
+w14:paraId="0B8127EA" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">
+w14:paraId="74E4FB05" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">1. Executive Summary
+w14:paraId="0F7EE5CE" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">The Nurture Roots Hour of AI Platform is a web-based volunteer orchestration and learning coordination platform designed to support a global AI learning programme for children and young people.
+w14:paraId="1242D466" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">The platform connects:
+w14:paraId="28DB0840" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Volunteer mentors (primarily Microsoft employees and global professionals)
+w14:paraId="75D845C1" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Remote learners worldwide
+w14:paraId="04F8FA66" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Learners attending physical community learning hubs in underserved regions
+w14:paraId="5EAAC324" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">The system automates learner and mentor registration, class allocation, volunteer scheduling, session coordination, impact tracking, and volunteer hours reporting.
+w14:paraId="580D1CBC" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">The platform will support both online learners and physical hubs while ensuring structured mentor coverage, reliable session delivery, and scalable programme operations.
+w14:paraId="0A143E47" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">
+w14:paraId="45A5E570" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">2. Background
+w14:paraId="085FC3A5" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Nurture Roots Foundation currently runs the Hour of AI, a weekly global learning initiative focused on introducing children and young people to Artificial Intelligence, coding, and digital literacy.
+w14:paraId="5CE14F21" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Sessions are delivered virtually through:
+w14:paraId="4AA59C0D" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Microsoft Teams
+w14:paraId="4E606A40" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Code.org learning resources
+w14:paraId="63D8F6AF" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">The programme operates using volunteer mentors and supports learners from diverse global locations, including underserved rural communities through physical learning hubs.
+w14:paraId="157C84D3" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Current coordination activities are largely manual, creating challenges in:
+w14:paraId="65003FAF" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Scheduling
+w14:paraId="5597FCC8" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Availability matching
+w14:paraId="42C96730" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Session management
+w14:paraId="438870CF" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Volunteer coordination
+w14:paraId="645C7CE7" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Impact reporting
+w14:paraId="4B30A39A" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Mentor replacement handling
+w14:paraId="24012430" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">The platform aims to solve these operational challenges and enable global scaling.
+w14:paraId="5AD605BA" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">
+w14:paraId="5FA68490" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">3. Product Vision
+w14:paraId="123879E8" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">To build a scalable global platform that enables:
+w14:paraId="1BA97AD9" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Efficient coordination of volunteer-led AI education
+w14:paraId="4FDA87D6" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Automated learner and mentor matching
+w14:paraId="0D99EEA4" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Reliable delivery of weekly sessions
+w14:paraId="6564D182" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Real-time impact measurement
+w14:paraId="67C65073" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Seamless support for both remote learners and physical hubs
+w14:paraId="3E093F04" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">
+w14:paraId="03C3643C" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">4. Product Objectives
+w14:paraId="79E8F4DC" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">The platform objectives are to:
+w14:paraId="79069C6C" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Automate mentor and learner registration
+w14:paraId="0DABC8DC" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Match mentors and learners automatically
+w14:paraId="12454983" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Reduce manual operational overhead
+w14:paraId="0721D2CD" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Ensure reliable mentor coverage for every class
+w14:paraId="37A0BC65" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Track volunteer hours and programme impact
+w14:paraId="2C6831D4" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Support underserved communities through physical hubs
+w14:paraId="344C6244" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Improve learner retention and engagement
+w14:paraId="716292C8" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Enable future scalability across multiple programmes
+w14:paraId="6DA5F8D1" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">
+w14:paraId="13475500" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">5. User Types
+w14:paraId="3294AA35" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">5.1 Students / Learners
+w14:paraId="0C52787E" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Children and young people aged 8â€“18 participating in the programme.
+w14:paraId="52E526F4" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Types
+w14:paraId="3C144CC9" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Remote learners
+w14:paraId="71D2954E" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Hub learners
+w14:paraId="36B6CCD2" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">
+w14:paraId="1DDC54F4" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">5.2 Volunteer Mentors
+w14:paraId="28B3E51E" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Professionals supporting sessions voluntarily.
+w14:paraId="18696686" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Primary Mentor Sources
+w14:paraId="1E8EE61E" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Microsoft volunteers
+w14:paraId="6B1ED2A8" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Global professionals
+w14:paraId="188454FE" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Community mentors
+w14:paraId="27BD65B9" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">
+w14:paraId="27F42EB1" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">5.3 Administrators
+w14:paraId="5DB016E3" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Programme management personnel responsible for:
+w14:paraId="476AF375" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Monitoring operations
+w14:paraId="6D0AA60B" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Managing registrations
+w14:paraId="4C90EC55" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Reviewing assignments
+w14:paraId="6EC747ED" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Handling safeguarding issues
+w14:paraId="6E1F4123" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Monitoring impact metrics
+w14:paraId="4012C73D" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">
+w14:paraId="2B723BD0" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">5.4 Hub Coordinators
+w14:paraId="586D6D6F" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Local representatives responsible for managing physical learning hubs.
+w14:paraId="790C111D" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Responsibilities include:
+w14:paraId="5EF984E9" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Supervising learners
+w14:paraId="256CD6C2" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Supporting attendance
+w14:paraId="5B778A78" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Coordinating local operations
+w14:paraId="14080E10" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">
+w14:paraId="141047F1" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">6. Scope
+w14:paraId="4FA4B101" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">In Scope
+w14:paraId="7C276600" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Student registration
+w14:paraId="0E810AC2" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Volunteer registration
+w14:paraId="07867897" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Hub registration
+w14:paraId="4CCCF09A" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Availability management
+w14:paraId="6D37232D" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Automated class assignment
+w14:paraId="774D7060" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Session management
+w14:paraId="70DD1CF7" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Microsoft Teams integration
+w14:paraId="6DAD26F0" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Volunteer hours tracking
+w14:paraId="26BBC518" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Mentor absence handling
+w14:paraId="0C84DF98" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Replacement coordination
+w14:paraId="608294B2" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Notifications and reminders
+w14:paraId="0C8F5FA3" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Impact reporting
+w14:paraId="7354A410" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Admin dashboard
+w14:paraId="1126EE54" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">
+w14:paraId="1D91D161" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Out of Scope (Phase 1)
+w14:paraId="7E1A26F0" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">AI-powered scheduling optimization
+w14:paraId="4C54C7F0" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Gamification
+w14:paraId="6B871AAD" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Mobile applications
+w14:paraId="39174C8B" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Advanced analytics
+w14:paraId="4DE04756" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Video recording storage
+w14:paraId="301D9C17" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Automated Code.org progress synchronization
+w14:paraId="7AF9DCC4" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">
+w14:paraId="5E97572B" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">7. Functional Requirements
+w14:paraId="6EF7F225" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">7.1 Landing Page
+w14:paraId="39117A5D" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">The platform shall provide a public landing page containing:
+w14:paraId="6E90249D" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Programme overview
+w14:paraId="2AD98B48" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Registration options
+w14:paraId="76C10086" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Impact metrics
+w14:paraId="653E1DCC" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Information for:
+w14:paraId="1B0A0489" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Students
+w14:paraId="6A5CC50C" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Volunteers
+w14:paraId="04004FEE" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Community hubs
+w14:paraId="1B070686" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Primary Actions
+w14:paraId="77920AD5" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Register as Student
+w14:paraId="38B68A83" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Register as Volunteer
+w14:paraId="4DEC8441" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Register a Hub
+w14:paraId="059A8217" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">
+w14:paraId="137D62FB" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">7.2 Registration Module
+w14:paraId="4C4AFA9E" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">7.2.1 Student Registration
+w14:paraId="737D6B84" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">The system shall allow students to register using an online form.
+w14:paraId="2D92AB47" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Required Information
+w14:paraId="6EC1943D" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Full name
+w14:paraId="1360D303" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Age
+w14:paraId="048BCE78" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Country
+w14:paraId="027C83CD" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">City
+w14:paraId="7DD8F768" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Timezone
+w14:paraId="079849DF" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Participation type
+w14:paraId="7856A894" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Parent/guardian email
+w14:paraId="2F8E3B4A" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Weekly availability
+w14:paraId="7E8553BB" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Participation Types
+w14:paraId="5BEA2292" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Remote learner
+w14:paraId="403D1BC6" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Hub learner
+w14:paraId="035F4184" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">If hub learner:
+w14:paraId="78611C79" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Select associated hub
+w14:paraId="408E3EA6" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">
+w14:paraId="2C064757" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">7.2.2 Volunteer Registration
+w14:paraId="07EB90B4" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">The system shall allow mentors to register.
+w14:paraId="731AF06D" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Required Information
+w14:paraId="6B8677C9" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Name
+w14:paraId="20AE5355" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Email
+w14:paraId="5ABF9A5A" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Organization
+w14:paraId="03914A90" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Country
+w14:paraId="77E61DF2" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Timezone
+w14:paraId="5217D07D" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Preferred learner group
+w14:paraId="76A623BF" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Weekly availability
+w14:paraId="5EB65C82" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Maximum sessions per week
+w14:paraId="1507C677" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Optional Information
+w14:paraId="66557189" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Skills
+w14:paraId="76F17859" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Experience level
+w14:paraId="28A2D788" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">
+w14:paraId="0A335726" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">7.2.3 Hub Registration
+w14:paraId="6EA2FF01" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">The system shall allow physical learning hubs to register.
+w14:paraId="7E1DBE06" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Required Information
+w14:paraId="560FE556" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Hub name
+w14:paraId="3ADE0981" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Location
+w14:paraId="731F7DF7" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Coordinator details
+w14:paraId="1A306059" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Device availability
+w14:paraId="4CECF44C" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Internet connectivity quality
+w14:paraId="3964E9C4" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">
+w14:paraId="6F68DC17" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">7.3 User Categories
+w14:paraId="24D06108" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">The system shall automatically assign learners into categories based on age.
+w14:paraId="6927415A" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Category
+w14:paraId="2203048C" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Age Range
+w14:paraId="6098CD9E" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Juniors
+w14:paraId="6115234D" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">8â€“10
+w14:paraId="07BB5A9A" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Intermediates
+w14:paraId="398F83B0" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">11â€“14
+w14:paraId="2ED465FA" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Seniors
+w14:paraId="255901BC" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">15â€“18
+w14:paraId="574E0974" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Classes shall only contain learners from the same category.
+w14:paraId="67CD9C1A" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">
+w14:paraId="55EA800A" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">7.4 Availability Management
+w14:paraId="203EDD5F" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">The platform shall allow:
+w14:paraId="26BF41E8" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Students to manage availability
+w14:paraId="12502432" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Mentors to manage availability
+w14:paraId="27894D82" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Recurring weekly schedules
+w14:paraId="596F48AB" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Temporary unavailability updates
+w14:paraId="1D43BD29" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Availability shall include:
+w14:paraId="4ABC9D18" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Day of week
+w14:paraId="40E37B55" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Start time
+w14:paraId="71FF4F02" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">End time
+w14:paraId="6A86E57A" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Timezone
+w14:paraId="541E6CEF" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">
+w14:paraId="2E45F114" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">7.5 Assignment Engine
+w14:paraId="4C3E6774" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">The platform shall automatically generate class assignments.
+w14:paraId="1113A928" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">
+w14:paraId="3A4D191B" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Assignment Rules
+w14:paraId="3AC8F5C7" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Mentor Rules
+w14:paraId="4A89AC62" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Each class must include:
+w14:paraId="1EA70452" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">1 primary mentor
+w14:paraId="085D73AB" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">1 backup mentor
+w14:paraId="042B0B3E" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Minimum:
+w14:paraId="025AEBC5" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">2 mentors per class
+w14:paraId="7513986A" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">
+w14:paraId="0BCB0F07" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Student Rules
+w14:paraId="080C34F8" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Each class must contain:
+w14:paraId="5758D520" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Minimum 3 students
+w14:paraId="05F50DF6" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Maximum 5 students
+w14:paraId="252547F9" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">
+w14:paraId="2246D860" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Matching Criteria
+w14:paraId="12E7A834" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Assignments shall be based on:
+w14:paraId="5C2C97C0" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Availability overlap
+w14:paraId="35C677D1" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Learner category
+w14:paraId="19EF6951" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Mentor workload capacity
+w14:paraId="10A7FA7B" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Timezone compatibility
+w14:paraId="1741010D" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">
+w14:paraId="33D20453" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Class Types
+w14:paraId="1AFCAB43" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Classes may be:
+w14:paraId="6A42EB46" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Remote
+w14:paraId="2448D6A4" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Hub-based
+w14:paraId="195F0EDF" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Mixed
+w14:paraId="6ECA4AD0" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Preference shall be given to grouping hub learners together.
+w14:paraId="61A50A8B" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">
+w14:paraId="13924F70" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">7.6 Session Management
+w14:paraId="6EFE4677" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">The platform shall generate recurring weekly sessions for approved classes.
+w14:paraId="2BE227B6" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Each session shall include:
+w14:paraId="1E1A3AED" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Schedule
+w14:paraId="6F534659" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Mentors
+w14:paraId="68BEC3A2" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Students
+w14:paraId="79640F11" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Microsoft Teams link
+w14:paraId="0EA2EAA0" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Code.org lesson reference
+w14:paraId="1B0FC1E3" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Attendance
+w14:paraId="468DD910" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Session notes
+w14:paraId="4ACD0C1C" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">
+w14:paraId="37566B15" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">7.7 Microsoft Teams Integration
+w14:paraId="0956E777" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">The platform shall integrate with Microsoft Teams to:
+w14:paraId="65FA63BF" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Generate recurring meetings
+w14:paraId="51D173F9" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Share join links
+w14:paraId="6B5AEC46" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Notify mentors and learners
+w14:paraId="1A272AF3" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">
+w14:paraId="6BA766F2" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">7.8 Volunteer Hours Tracking
+w14:paraId="10253460" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">The platform shall track volunteer hours delivered.
+w14:paraId="7E56EE0F" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Features
+w14:paraId="67F7B593" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Session duration tracking
+w14:paraId="24FDB99F" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Manual hours logging
+w14:paraId="34C6CDD9" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Reminder notifications
+w14:paraId="49D3C371" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Total hours reporting
+w14:paraId="5BFD9613" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Mentors shall receive reminders after sessions to log volunteer hours.
+w14:paraId="2A733071" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">
+w14:paraId="20163B37" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">7.9 Mentor Absence Management
+w14:paraId="0FEA707E" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Mentors shall be able to submit absence requests.
+w14:paraId="2FEA5E80" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Types
+w14:paraId="4D382E57" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Planned absence
+w14:paraId="7F569146" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Emergency absence
+w14:paraId="37102A2F" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">
+w14:paraId="022F1B61" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Replacement Workflow
+w14:paraId="643A0498" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">When a mentor is unavailable:
+w14:paraId="20CF2971" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Backup mentor becomes primary mentor
+w14:paraId="4675A5F3" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Replacement request is broadcast to all mentors
+w14:paraId="2A6C2336" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">First eligible mentor to accept is assigned automatically
+w14:paraId="118F907B" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">
+w14:paraId="4BA68B8F" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Emergency Absence Handling
+w14:paraId="4F44D4B9" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Emergency absence notifications shall be sent to:
+w14:paraId="1EA1AD01" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Administrators
+w14:paraId="3B76B324" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Hub coordinators
+w14:paraId="53C33342" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">All mentors
+w14:paraId="02925A40" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">
+w14:paraId="439CF29C" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">7.10 Notifications
+w14:paraId="77142EB3" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">The system shall support automated notifications for:
+w14:paraId="5C508CAD" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Session Reminders
+w14:paraId="1931A83C" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">24 hours before session
+w14:paraId="210FC20B" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">2 hours before session
+w14:paraId="7493D4F8" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Operational Notifications
+w14:paraId="665E180A" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Assignment confirmations
+w14:paraId="42CD31D7" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Replacement requests
+w14:paraId="54FDE8C2" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Hours logging reminders
+w14:paraId="2BD74AA5" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Notifications shall initially be delivered via email.
+w14:paraId="7D57728E" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">
+w14:paraId="1ED2B0E4" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">7.11 Impact Tracking
+w14:paraId="13D8E5AF" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">The platform shall provide impact metrics including:
+w14:paraId="02F02FAA" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Total learners
+w14:paraId="53612C01" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Total mentors
+w14:paraId="51E1F263" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Volunteer hours delivered
+w14:paraId="641CB081" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Sessions delivered
+w14:paraId="3BAC3E53" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Countries represented
+w14:paraId="59DFBA7C" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Active hubs
+w14:paraId="77021A0F" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">
+w14:paraId="26AEAAAF" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">7.12 Admin Dashboard
+w14:paraId="15D6D185" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Administrators shall be able to:
+w14:paraId="6D309BE7" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Approve registrations
+w14:paraId="7CD9DCC8" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Review assignment proposals
+w14:paraId="4CF7EC33" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Manage sessions
+w14:paraId="5E2D50FE" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Monitor volunteer hours
+w14:paraId="0B8912C4" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Review impact metrics
+w14:paraId="24A1B1A9" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Handle mentor replacements
+w14:paraId="6A296CAB" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Manage safeguarding concerns
+w14:paraId="523AD8E0" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">
+w14:paraId="369EF3C6" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">8. Non-Functional Requirements
+w14:paraId="0AFACA13" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Scalability
+w14:paraId="5226F7E5" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">The platform shall support:
+w14:paraId="3C00E07C" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Multiple countries
+w14:paraId="08B0DC27" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Multiple hubs
+w14:paraId="03FA7540" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Hundreds of concurrent users
+w14:paraId="3A70CAC1" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">
+w14:paraId="141F11ED" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Security
+w14:paraId="06FF7357" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">The platform shall implement:
+w14:paraId="10F8739A" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Secure authentication
+w14:paraId="267787C1" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Role-based access control
+w14:paraId="529FC26A" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Secure data storage
+w14:paraId="55F24B67" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">
+w14:paraId="4B4381AA" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Safeguarding
+w14:paraId="77D22907" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">The platform shall include:
+w14:paraId="547CDC51" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Parent consent collection
+w14:paraId="551CE31F" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Incident reporting
+w14:paraId="5041F1FB" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Role restrictions
+w14:paraId="0CECFC3C" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">
+w14:paraId="7A95394C" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Reliability
+w14:paraId="49C41EF5" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">The system shall:
+w14:paraId="03E46AB5" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Prevent scheduling conflicts
+w14:paraId="6CDE6317" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Handle mentor replacement efficiently
+w14:paraId="2A8C522F" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Ensure data consistency
+w14:paraId="64398D0B" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">
+w14:paraId="0EE4D323" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">9. Technical Requirements
+w14:paraId="7B84AE04" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Frontend
+w14:paraId="2C14DA86" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">React / Next.js
+w14:paraId="370FFEF4" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">
+w14:paraId="7BB499EC" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Backend
+w14:paraId="5A81F748" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Node.js / Serverless Functions
+w14:paraId="46F86B6F" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">
+w14:paraId="433E58D7" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Database
+w14:paraId="49E30FF0" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">PostgreSQL or CosmosDB
+w14:paraId="26E7503E" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">
+w14:paraId="12FE1D23" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Authentication
+w14:paraId="39B08D8C" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Microsoft Entra ID
+w14:paraId="453318CA" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Email authentication
+w14:paraId="544ACA8F" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">
+w14:paraId="5449AD3C" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Integrations
+w14:paraId="2987B61B" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Microsoft Teams
+w14:paraId="56620572" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Microsoft Graph API
+w14:paraId="0977C5E0" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Code.org
+w14:paraId="52EEE596" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Email service provider
+w14:paraId="31EA82B6" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">
+w14:paraId="0CA54415" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">10. Success Metrics
+w14:paraId="3B318371" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">The platform will be considered successful if it achieves:
+w14:paraId="758C4729" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Reduced manual scheduling effort
+w14:paraId="2192EA2E" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Increased session delivery reliability
+w14:paraId="1C2EAAF9" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Increased volunteer retention
+w14:paraId="4561D824" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Increased learner participation
+w14:paraId="55ADB412" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Accurate volunteer hour tracking
+w14:paraId="03E1EBF6" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Expansion to additional global hubs
+w14:paraId="0D25F28B" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">
+w14:paraId="03D67E7D" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">11. Future Enhancements (Post-MVP)
+w14:paraId="56BF3988" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Potential future enhancements include:
+w14:paraId="010EF21F" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">AI-powered scheduling optimization
+w14:paraId="356B4F54" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Mentor reliability scoring
+w14:paraId="70CF089B" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Attendance analytics
+w14:paraId="518A055D" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Gamification and badges
+w14:paraId="36FC9FB8" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Mobile applications
+w14:paraId="14883501" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Automated Code.org progress synchronization
+w14:paraId="48663510" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Volunteer leaderboards
+w14:paraId="140E8E84" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">AI-generated impact reports
+w14:paraId="0D7E206B" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">
+w14:paraId="3AAE60C5" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">12. Risks and Dependencies
+w14:paraId="4EC32C60" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Risks
+w14:paraId="308A2B4E" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Timezone coordination complexity
+w14:paraId="3FAC0D4D" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Volunteer availability fluctuations
+w14:paraId="46872521" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Connectivity limitations in rural hubs
+w14:paraId="49A83AE1" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">
+w14:paraId="55E7A60D" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Dependencies
+w14:paraId="32DA122C" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Microsoft Teams availability
+w14:paraId="72F7E677" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Microsoft Graph API
+w14:paraId="2B51642F" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Reliable email delivery service
+w14:paraId="6C7D29C6" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Internet connectivity at hubs
+w14:paraId="18B894CE" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">
+w14:paraId="7C3170AF" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">13. Conclusion
+w14:paraId="0FBCDF37" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">The Nurture Roots Hour of AI Platform will provide the operational infrastructure required to scale a global volunteer-led AI learning initiative efficiently and sustainably.
+w14:paraId="5BCBFB59" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">The platform will enable:
+w14:paraId="3B767247" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Automated coordination
+w14:paraId="4A0AEBAE" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Reliable session delivery
+w14:paraId="20003C8B" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Scalable volunteer management
+w14:paraId="441F5B2A" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Structured impact reporting
+w14:paraId="01F93CB8" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">Enhanced access to AI education globally
+w14:paraId="519B05E1" w14:textId="77777777" w:rsidR="000C1734" w:rsidRPr="000C1734" w:rsidRDefault="000C1734" w:rsidP="000C1734">while supporting both remote learners and underserved communities through physical learning hubs.
+w14:paraId="518D4B13" w14:textId="77777777" w:rsidR="004639A7" w:rsidRDefault="004639A7" w:rsidP="000C1734">

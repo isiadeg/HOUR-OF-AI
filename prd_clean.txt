@@ -1,0 +1,327 @@
+﻿Product Requirements Document (PRD)
+Nurture Roots Hour of AI Platform
+Version: 1.0Prepared For: Nurture Roots FoundationProgramme: Nurture Roots Code Club â€“ Hour of AIDocument Type: Product Requirements Document (PRD)
+1. Executive Summary
+The Nurture Roots Hour of AI Platform is a web-based volunteer orchestration and learning coordination platform designed to support a global AI learning programme for children and young people.
+The platform connects:
+Volunteer mentors (primarily Microsoft employees and global professionals)
+Remote learners worldwide
+Learners attending physical community learning hubs in underserved regions
+The system automates learner and mentor registration, class allocation, volunteer scheduling, session coordination, impact tracking, and volunteer hours reporting.
+The platform will support both online learners and physical hubs while ensuring structured mentor coverage, reliable session delivery, and scalable programme operations.
+2. Background
+Nurture Roots Foundation currently runs the Hour of AI, a weekly global learning initiative focused on introducing children and young people to Artificial Intelligence, coding, and digital literacy.
+Sessions are delivered virtually through:
+Microsoft Teams
+Code.org learning resources
+The programme operates using volunteer mentors and supports learners from diverse global locations, including underserved rural communities through physical learning hubs.
+Current coordination activities are largely manual, creating challenges in:
+Scheduling
+Availability matching
+Session management
+Volunteer coordination
+Impact reporting
+Mentor replacement handling
+The platform aims to solve these operational challenges and enable global scaling.
+3. Product Vision
+To build a scalable global platform that enables:
+Efficient coordination of volunteer-led AI education
+Automated learner and mentor matching
+Reliable delivery of weekly sessions
+Real-time impact measurement
+Seamless support for both remote learners and physical hubs
+4. Product Objectives
+The platform objectives are to:
+Automate mentor and learner registration
+Match mentors and learners automatically
+Reduce manual operational overhead
+Ensure reliable mentor coverage for every class
+Track volunteer hours and programme impact
+Support underserved communities through physical hubs
+Improve learner retention and engagement
+Enable future scalability across multiple programmes
+5. User Types
+5.1 Students / Learners
+Children and young people aged 8â€“18 participating in the programme.
+Types
+Remote learners
+Hub learners
+5.2 Volunteer Mentors
+Professionals supporting sessions voluntarily.
+Primary Mentor Sources
+Microsoft volunteers
+Global professionals
+Community mentors
+5.3 Administrators
+Programme management personnel responsible for:
+Monitoring operations
+Managing registrations
+Reviewing assignments
+Handling safeguarding issues
+Monitoring impact metrics
+5.4 Hub Coordinators
+Local representatives responsible for managing physical learning hubs.
+Responsibilities include:
+Supervising learners
+Supporting attendance
+Coordinating local operations
+6. Scope
+In Scope
+Student registration
+Volunteer registration
+Hub registration
+Availability management
+Automated class assignment
+Session management
+Microsoft Teams integration
+Volunteer hours tracking
+Mentor absence handling
+Replacement coordination
+Notifications and reminders
+Impact reporting
+Admin dashboard
+Out of Scope (Phase 1)
+AI-powered scheduling optimization
+Gamification
+Mobile applications
+Advanced analytics
+Video recording storage
+Automated Code.org progress synchronization
+7. Functional Requirements
+7.1 Landing Page
+The platform shall provide a public landing page containing:
+Programme overview
+Registration options
+Impact metrics
+Information for:
+Students
+Volunteers
+Community hubs
+Primary Actions
+Register as Student
+Register as Volunteer
+Register a Hub
+7.2 Registration Module
+7.2.1 Student Registration
+The system shall allow students to register using an online form.
+Required Information
+Full name
+Age
+Country
+City
+Timezone
+Participation type
+Parent/guardian email
+Weekly availability
+Participation Types
+Remote learner
+Hub learner
+If hub learner:
+Select associated hub
+7.2.2 Volunteer Registration
+The system shall allow mentors to register.
+Required Information
+Name
+Email
+Organization
+Country
+Timezone
+Preferred learner group
+Weekly availability
+Maximum sessions per week
+Optional Information
+Skills
+Experience level
+7.2.3 Hub Registration
+The system shall allow physical learning hubs to register.
+Required Information
+Hub name
+Location
+Coordinator details
+Device availability
+Internet connectivity quality
+7.3 User Categories
+The system shall automatically assign learners into categories based on age.
+Category
+Age Range
+Juniors
+8â€“10
+Intermediates
+11â€“14
+Seniors
+15â€“18
+Classes shall only contain learners from the same category.
+7.4 Availability Management
+The platform shall allow:
+Students to manage availability
+Mentors to manage availability
+Recurring weekly schedules
+Temporary unavailability updates
+Availability shall include:
+Day of week
+Start time
+End time
+Timezone
+7.5 Assignment Engine
+The platform shall automatically generate class assignments.
+Assignment Rules
+Mentor Rules
+Each class must include:
+1 primary mentor
+1 backup mentor
+Minimum:
+2 mentors per class
+Student Rules
+Each class must contain:
+Minimum 3 students
+Maximum 5 students
+Matching Criteria
+Assignments shall be based on:
+Availability overlap
+Learner category
+Mentor workload capacity
+Timezone compatibility
+Class Types
+Classes may be:
+Remote
+Hub-based
+Mixed
+Preference shall be given to grouping hub learners together.
+7.6 Session Management
+The platform shall generate recurring weekly sessions for approved classes.
+Each session shall include:
+Schedule
+Mentors
+Students
+Microsoft Teams link
+Code.org lesson reference
+Attendance
+Session notes
+7.7 Microsoft Teams Integration
+The platform shall integrate with Microsoft Teams to:
+Generate recurring meetings
+Share join links
+Notify mentors and learners
+7.8 Volunteer Hours Tracking
+The platform shall track volunteer hours delivered.
+Features
+Session duration tracking
+Manual hours logging
+Reminder notifications
+Total hours reporting
+Mentors shall receive reminders after sessions to log volunteer hours.
+7.9 Mentor Absence Management
+Mentors shall be able to submit absence requests.
+Types
+Planned absence
+Emergency absence
+Replacement Workflow
+When a mentor is unavailable:
+Backup mentor becomes primary mentor
+Replacement request is broadcast to all mentors
+First eligible mentor to accept is assigned automatically
+Emergency Absence Handling
+Emergency absence notifications shall be sent to:
+Administrators
+Hub coordinators
+All mentors
+7.10 Notifications
+The system shall support automated notifications for:
+Session Reminders
+24 hours before session
+2 hours before session
+Operational Notifications
+Assignment confirmations
+Replacement requests
+Hours logging reminders
+Notifications shall initially be delivered via email.
+7.11 Impact Tracking
+The platform shall provide impact metrics including:
+Total learners
+Total mentors
+Volunteer hours delivered
+Sessions delivered
+Countries represented
+Active hubs
+7.12 Admin Dashboard
+Administrators shall be able to:
+Approve registrations
+Review assignment proposals
+Manage sessions
+Monitor volunteer hours
+Review impact metrics
+Handle mentor replacements
+Manage safeguarding concerns
+8. Non-Functional Requirements
+Scalability
+The platform shall support:
+Multiple countries
+Multiple hubs
+Hundreds of concurrent users
+Security
+The platform shall implement:
+Secure authentication
+Role-based access control
+Secure data storage
+Safeguarding
+The platform shall include:
+Parent consent collection
+Incident reporting
+Role restrictions
+Reliability
+The system shall:
+Prevent scheduling conflicts
+Handle mentor replacement efficiently
+Ensure data consistency
+9. Technical Requirements
+Frontend
+React / Next.js
+Backend
+Node.js / Serverless Functions
+Database
+PostgreSQL or CosmosDB
+Authentication
+Microsoft Entra ID
+Email authentication
+Integrations
+Microsoft Teams
+Microsoft Graph API
+Code.org
+Email service provider
+10. Success Metrics
+The platform will be considered successful if it achieves:
+Reduced manual scheduling effort
+Increased session delivery reliability
+Increased volunteer retention
+Increased learner participation
+Accurate volunteer hour tracking
+Expansion to additional global hubs
+11. Future Enhancements (Post-MVP)
+Potential future enhancements include:
+AI-powered scheduling optimization
+Mentor reliability scoring
+Attendance analytics
+Gamification and badges
+Mobile applications
+Automated Code.org progress synchronization
+Volunteer leaderboards
+AI-generated impact reports
+12. Risks and Dependencies
+Risks
+Timezone coordination complexity
+Volunteer availability fluctuations
+Connectivity limitations in rural hubs
+Dependencies
+Microsoft Teams availability
+Microsoft Graph API
+Reliable email delivery service
+Internet connectivity at hubs
+13. Conclusion
+The Nurture Roots Hour of AI Platform will provide the operational infrastructure required to scale a global volunteer-led AI learning initiative efficiently and sustainably.
+The platform will enable:
+Automated coordination
+Reliable session delivery
+Scalable volunteer management
+Structured impact reporting
+Enhanced access to AI education globally
+while supporting both remote learners and underserved communities through physical learning hubs.
